@@ -22,7 +22,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Set the container height to full viewport height */
+  height: 100vh;
 }
 
 .image-slider {
@@ -36,6 +36,8 @@ body {
   height: 600px; /* Ensure images retain their aspect ratio */
   margin: 0 auto;
   object-fit: cover; /* Center images horizontally within the slider */
+  border: 2px solid white;
+  box-shadow: 2px 4px 6px rgba(255, 255, 255, 0.4);
 }
 
 .navigation {
